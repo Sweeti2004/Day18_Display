@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:hover{
+            color: green;
+        }
+        a:active{
+            color: red;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        hr{
+            margin: 20px;
+        }
+        .grad{
+            height: 300px;
+            
+            background-image: linear-gradient(to right, red,yellow);
+            background-image: linear-gradient(to left, red,yellow);
+            background-image: linear-gradient(to top, red,yellow);
+            background-image: linear-gradient(to bottom, red,yellow);
+        }
+        .radial-gradient{
+            width: 45%;
+            display: inline-block;
+            height: 600px;
+            margin: 0px 30px;
+            background-image: radial-gradient(red,yellow,blueviolet);
+            background-image: radial-gradient(circle, red,yellow,blueviolet);
+        }
+        .r-r-grad{
+            width: 45%;
+            display: inline-block;
+            margin: 0px 30px;
+            height: 600px;
+            background-image: repeating-radial-gradient(red 10%,yellow 20%,blue 25%);
+        }
+        .con-rad-grad{
+            height: 300px;
+            background-image: conic-gradient(yellow,red,blue);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="grad">
+    </div>
+<hr>
+<div class="con-rad-grad"></div>
+<hr>
+    <div class="radial-gradient">
+
+    </div>
+    
+    <div class="r-r-grad">
+        </div>
+        <hr>
+       
+</body>
+</html>
